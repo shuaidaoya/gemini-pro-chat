@@ -274,7 +274,7 @@ export default () => {
           <button onClick={handleButtonClick} gen-slate-btn>
             发送
           </button>
-          <button style="font-size: 1rem;" title="Clear" onClick={clear} gen-slate-btn>
+          <button style="font-size: 12px;" title="Clear" onClick={clear} gen-slate-btn>
             <IconClear />
           </button>
         </div>
