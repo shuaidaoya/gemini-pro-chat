@@ -255,7 +255,7 @@ export default () => {
         )}
       >
         <div class="gen-text-wrapper relative">
-          <button title="Picture" onClick={handlePictureUpload} class="absolute left-1rem top-50% translate-y-[-50%]">
+          <button title="Picture" onClick={handlePictureUpload} class="absolute left-1rem top-50% translate-y-[-50%] btn-adaptive">
             <Picture />
           </button>
           <textarea
