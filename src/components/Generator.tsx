@@ -255,7 +255,7 @@ export default () => {
         )}
       >
         <div class="gen-text-wrapper relative">
-          <button title="Picture" onClick={handlePictureUpload} class="absolute left-1rem top-50% translate-y-[-50%]"style="width: 30px;">
+          <button title="Picture" onClick={handlePictureUpload} class="absolute left-1rem top-50% translate-y-[-50%]">
             <Picture />
           </button>
           <textarea
@@ -274,7 +274,7 @@ export default () => {
           <button onClick={handleButtonClick} gen-slate-btn>
             发送
           </button>
-          <button title="Clear" onClick={clear} gen-slate-btn>
+          <button style="width: 2rem;" title="Clear" onClick={clear} gen-slate-btn>
             <IconClear />
           </button>
         </div>
