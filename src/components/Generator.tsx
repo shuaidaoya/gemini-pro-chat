@@ -271,10 +271,10 @@ export default () => {
             rows="1"
             class="gen-textarea"
           />
-          <button onClick={handleButtonClick} gen-slate-btn>
+          <button style="font-size: 12px;" onClick={handleButtonClick} gen-slate-btn>
             发送
           </button>
-          <button style="font-size: 12px;" title="Clear" onClick={clear} gen-slate-btn>
+          <button title="Clear" onClick={clear} gen-slate-btn>
             <IconClear />
           </button>
         </div>
